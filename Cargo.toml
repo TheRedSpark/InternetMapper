@@ -10,3 +10,5 @@ surge-ping = {version = "0.8.0"}
 tokio = { version = "1.21.2", features = ["full"] }
 reqwest = { version = "0.9.18", features = ["rustls-tls"], default-features = false }#0.9.18 wird gebraucht
 ipnet = { version = "2", features = ["serde"] }
+mysql = { version = "24.0.0", features = ["default-rustls"], default-features = false }
+chrono = { version = "0.4.31", features = ["default"] }
